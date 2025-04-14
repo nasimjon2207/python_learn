@@ -20,7 +20,7 @@ def son_top_kv(x):
             else:
                 break
         else:
-             print(f"1-dan {x}-gacha NATURAL sonni kvadratini kiriting!")   
+             print(f"1-dan {x}-gacha NATURAL sonni kvadratini so'radim , butun son!")   
         
     print(f"'Tabriklayman' {int(math.sqrt(taxmin))}-sonining kvadratini o'ylagan edim,  {i}-chi urunishda topdingiz!")
     

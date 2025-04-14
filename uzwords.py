@@ -8,7 +8,7 @@ words = [
     "bandaj", "gips", "jarohat", "shikast", "operatsiya", "dard", "gigiyena", "gospital", "kasallik",
     "anemiya", "tibbiyotchi", "tashxis", "muolaja", "nevrolog", "kardiolog", "pediatr", "travmatolog",
     "stomatolog", "lor", "ginekolog",  "shifobaxsh", "shamollash", "dard", "tinchlantiruvchi", "qon bosimi",
-    "shlang", "shifobaxsh", "shifokorlik", "doktor", "muolajalar", "shprits", "analiz", "dorilar", "sog‘liq",
+    "shifobaxsh", "shifokorlik", "doktor", "muolajalar", "shprits", "analiz", "dorilar", "sog‘liq",
     "tekshiruv", "kasalliklar", "parvarish", "tibbiy", "gigiyenik", "sog‘lom", "shamollash", "bo‘yin", "tana"
 ]
 
