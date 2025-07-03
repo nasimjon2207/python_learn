@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forma</title>
+        <style>
+            form{
+                font-weight: bold;
+            }
+            #login{
+                background-color:aqua;
+                text-align: center;
+                color: black; font-size: large;
+
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/server.py" method="get">
+            <label for="username">username</label><br>
+            <input type="text" name="username" id="username"><br>
+            <label for="password">password</label><br>
+            <input type="password" name="password" id="password"><br>
+            <label for="email">Email kirting!</label><br>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="sana">Birthday</label><br>
+            <input type="date" name="date" id="sana"><br><br>
+            <label for="student">Student</label>
+            <input type="checkbox" name="student" id="student"><br>
+            <hr>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female"><br><br>
+            <label for="file">file</label>
+            <input type="file" name="file" id="file"><br><br>
+            <hr>
+            <label for="tajriba"> ISh tajribangiz (yil)</label>
+            <select name="experince" id="tajriba">
+                <option value="0">tajribam yo'q</option>
+                <option value="1">1-yildan kam</option>
+                <option value="2">1-yildan ko'proq</option>
+            </select><br><br>
+            <label for="about">O'zingiz haqingizda qo'shimcha ma'lumot kiriting!</label><br>
+            <textarea id="about" name="about" rows="10" cols="100"></textarea><br><br>
+            <button type="submit" id="login" style="border-bottom: 25px;" >Register</button>
+        </form>
+    </body>
+</html>
